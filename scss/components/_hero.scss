@@ -1,0 +1,43 @@
+.hero {
+    padding: 200px 0;
+    background-color: var(--second-background-color);
+    color: var(--cap-text-color);
+    background-image: var(--gradient), url(../image/fonimage.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+
+    &__title {
+        text-align: center;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        max-width: 696px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        display: block;
+        padding: 10px 32px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.875;
+        background-color: var(--logo-text-color);
+        color: var(--cap-text-color);
+        border: 0;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 0 auto;
+        max-width: 216px;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--main-animation);
+
+        &:hover,
+        &:focus {
+            background-color: var(--button-hover-color);
+        }
+    }
+}

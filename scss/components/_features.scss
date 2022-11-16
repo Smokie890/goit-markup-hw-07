@@ -1,0 +1,34 @@
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    &__list {
+        width: 270px;
+    }
+
+    &__logo {
+        width: 270px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--button-color);
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        line-height: 1.71;
+        color: var(--paragraph-text-color);
+        max-width: 270px;
+    }
+}
